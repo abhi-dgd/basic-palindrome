@@ -8,6 +8,10 @@ const isPalindrome = () => {
     } else {
         alert("Is a palindrome!")
     }
+
+    // Set input value to empty string
+    // Clear typed word
+    input.value = ""
 };
 
 const reverseInput = (word) => {
